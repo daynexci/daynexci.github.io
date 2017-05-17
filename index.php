@@ -1,11 +1,9 @@
 <?php
-####################################################
-## Script created by coRpSE
-## Owner of www . headshotdomain . net
-##
-## You are free to modify this code any way you
-## feel like, just give credit where credit is due . 
-###################################################
+
+// ## Script created by coRpSE
+// ## Owner of www . headshotdomain . net
+// ## You are free to modify this code any way you
+// ## feel like, just give credit where credit is due . 
 
 $m1 = "It is certain";
 $m2 = "It is decidedly so";
