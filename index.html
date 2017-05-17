@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<head>
+  <title>Dayne Bot Moderator</title>
+</head>
+<script>
+var m1 = "It is certain";
+var m2 = "It is decidedly so";
+var m3 = "Without a doubt";
+var m4 = "Yes, definitely";
+var m5 = "You may rely on it";
+var m6 = "As I see it, yes";
+var m7 = "Most likely";
+var m8 = "Outlook good";
+var m9 = "I think, Yes";
+var m10 = "Signs point to yes";
+var m11 = "Reply hazy try again";
+var m12 = "Ask again later";
+var m13 = "Better not tell you now";
+var m14 = "Cannot predict now";
+var m15 = "Concentrate and ask again";
+var m16 = "Don't count on it";
+var m17 = "My reply is no";
+var m18 = "My sources say no";
+var m19 = "Outlook not so good";
+var m20 = "Very doubtful";
+
+var rm = array(m1, m2, m3, m4, m5, m6, m7, m8, m9, m10, m11, m12, m13, m14, m15, m16, m17, m18, m19, m20);
+var item = items[Math.floor(Math.random()*rm.length)];
+
+document.getElementById("p1").innerHTML = item;
+</script>
+
+<p id="p1"></p>
